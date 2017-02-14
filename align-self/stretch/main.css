@@ -1,0 +1,17 @@
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.item2 {
+  -webkit-align-self: stretch;
+  -moz-align-self: stretch;
+  -ms-flex-item-align: stretch;
+  align-self: stretch;
+  background-color: #000;
+  color: #fff;
+  width: 50px; }
+
+/*# sourceMappingURL=main.css.map */

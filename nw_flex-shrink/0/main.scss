@@ -1,0 +1,17 @@
+@import "sfm_flexbox";
+
+.container {
+  @extend %sfm_flexbox;
+
+}
+
+.item {  
+    @include sfm_flex-grow(1);  
+}
+
+.container:hover > .item {
+  @include sfm_flex-grow(0);
+  // nw
+  @include sfm_flex-shrink(2);
+}
+

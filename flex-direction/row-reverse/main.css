@@ -1,0 +1,11 @@
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.container {
+  flex-direction: row-reverse; }
+
+/*# sourceMappingURL=main.css.map */

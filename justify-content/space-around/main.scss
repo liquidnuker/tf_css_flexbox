@@ -1,0 +1,6 @@
+@import "sfm_flexbox";
+
+.container {
+  @extend %sfm_flexbox;
+  @include sfm_justify-content(space-around);
+}

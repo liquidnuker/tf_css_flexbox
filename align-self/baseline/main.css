@@ -1,0 +1,17 @@
+.container {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+.item2 {
+  -webkit-align-self: baseline;
+  -moz-align-self: baseline;
+  -ms-flex-item-align: baseline;
+  align-self: baseline;
+  background-color: #000;
+  color: #fff;
+  width: 50px; }
+
+/*# sourceMappingURL=main.css.map */

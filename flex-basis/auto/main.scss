@@ -1,0 +1,11 @@
+@import "sfm_flexbox";
+
+.container {
+  
+  @extend %sfm_flexbox;
+}
+
+.item {
+  @include sfm_flex-basis();
+}
+

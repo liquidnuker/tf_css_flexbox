@@ -1,0 +1,13 @@
+@import "sfm_flexbox";
+
+.container {
+  @extend %sfm_flexbox;
+}
+
+.item2 {
+  @include sfm_align-self(stretch);
+
+  background-color: #000;
+  color: #fff;
+  width: 50px;
+}

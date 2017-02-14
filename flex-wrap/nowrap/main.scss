@@ -1,0 +1,7 @@
+@import "sfm_flexbox";
+
+.container {
+  
+  @extend %sfm_flexbox;
+  @include sfm_flex-wrap();
+}
